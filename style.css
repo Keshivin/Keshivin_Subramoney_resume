@@ -1,0 +1,55 @@
+.bod{
+    background-color: black;
+}
+.name{
+    text-shadow: -3px -2px darkmagenta, 0px 3px olive;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0%;
+}
+
+
+
+.contents, .contact{
+    text-align: center;
+
+}
+
+h2{
+    padding-top: 5%;
+    font-size: 50px ;
+    text-shadow: -1px -2px green, 0px 2px darkmagenta;
+}
+
+h3{
+    color: green;
+}
+
+p, ul{
+    font-size: 35px;
+    padding: 2%;
+    color: white;
+}
+
+img{
+    width:  105%;
+    height: 100%;
+}
+
+a{
+    color: darkmagenta;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow:inset 0 0 10px rgba(0,0,0,0.25)
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: darkmagenta;
+}
